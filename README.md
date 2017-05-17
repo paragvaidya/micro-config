@@ -1,0 +1,2 @@
+# micro-config
+config server
