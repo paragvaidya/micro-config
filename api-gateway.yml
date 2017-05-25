@@ -29,7 +29,7 @@ zuul:
       stripPrefix: false
       serviceId: web-portal
     users:
-      path: /users-service/**
+      path: /user-service/**
       stripPrefix: false
       serviceId: users-service
 spring:
