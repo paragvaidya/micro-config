@@ -28,6 +28,10 @@ zuul:
       path: /**
       stripPrefix: false
       serviceId: web-portal
+    users:
+      path: /users-service/**
+      stripPrefix: false
+      serviceId: users-service
 spring:
   aop:
     proxy-target-class: true
