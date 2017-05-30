@@ -1,6 +1,6 @@
 server:
   port: 9020
-  contextPath: /comments-service
+  contextPath: /comments-webservice
 
 eureka:
   client:
