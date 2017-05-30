@@ -32,6 +32,10 @@ zuul:
       path: /user-service/**
       stripPrefix: false
       serviceId: users-service
+    task:
+      path: /task-service/**
+      stripPrefix: false
+      serviceId: task-service
 spring:
   aop:
     proxy-target-class: true
